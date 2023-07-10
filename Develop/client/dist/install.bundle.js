@@ -1,0 +1,1 @@
+(()=>{var n,e=document.getElementById("buttonInstall");window.addEventListener("beforeinstallprompt",(function(t){t.preventDefault(),n=t,e.classList.remove("hidden")})),e.addEventListener("click",(function(){n&&(n.prompt(),n=null,e.classList.add("hidden"))})),window.addEventListener("appinstalled",(function(){n=null}))})();
